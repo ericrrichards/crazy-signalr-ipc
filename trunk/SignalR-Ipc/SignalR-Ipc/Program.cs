@@ -6,7 +6,6 @@ using Owin;
 namespace SignalR_Ipc {
     static class Program {
         static void Main(string[] args) {
-
             if (args.Length == 0) {
                 var server = new Server(4);
                 server.Run();
